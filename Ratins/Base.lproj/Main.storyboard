@@ -23,7 +23,7 @@
             </objects>
             <point key="canvasLocation" x="-123" y="273"/>
         </scene>
-        <!--Table View Controller-->
+        <!--Table View Controller - Players-->
         <scene sceneID="fGl-88-Y4r">
             <objects>
                 <tableViewController id="Fnt-Uo-vU2" sceneMemberID="viewController">
@@ -46,7 +46,7 @@
                             <outlet property="delegate" destination="Fnt-Uo-vU2" id="el7-8b-IdL"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="yU8-Pi-mza"/>
+                    <navigationItem key="navigationItem" title="Players" id="yU8-Pi-mza"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="P4h-xc-ovP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
