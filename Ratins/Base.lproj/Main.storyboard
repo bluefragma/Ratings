@@ -15,8 +15,8 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
                     <connections>
-                        <segue destination="Akf-G4-AKi" kind="relationship" relationship="viewControllers" id="3lu-2w-2m0"/>
                         <segue destination="J8l-XD-Vht" kind="relationship" relationship="viewControllers" id="1mZ-bw-PSS"/>
+                        <segue destination="Akf-G4-AKi" kind="relationship" relationship="viewControllers" id="3lu-2w-2m0"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZLV-9W-uFO" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -69,17 +69,17 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 2" id="7EZ-gf-enN"/>
+                    <tabBarItem key="tabBarItem" title="Item 2" image="Gestures.png" id="7EZ-gf-enN"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IvD-hj-6Bi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="411" y="767"/>
         </scene>
-        <!--Navigation Controller - Item-->
+        <!--Navigation Controller - 플레이어-->
         <scene sceneID="3dJ-Ob-KtP">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="J8l-XD-Vht" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="CQE-dK-ebo"/>
+                    <tabBarItem key="tabBarItem" title="플레이어" image="Players.png" id="CQE-dK-ebo"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="idO-qf-aoX">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -95,6 +95,10 @@
             <point key="canvasLocation" x="410" y="111"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Gestures.png" width="30" height="30"/>
+        <image name="Players.png" width="30" height="30"/>
+    </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
