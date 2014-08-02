@@ -57,16 +57,18 @@
     return [self.players count];
 }
 
-/*
+
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:<#@"reuseIdentifier"#> forIndexPath:indexPath];
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"PlayerCell" forIndexPath:indexPath];
     
     // Configure the cell...
     
+    Player *player = (self.players) [indexPath.row];
+    cell.textLabel.text = player.name;
+    cell.detailTextLabel.text = player.game;
     return cell;
 }
-*/
 
 /*
 // Override to support conditional editing of the table view.
