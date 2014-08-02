@@ -47,6 +47,7 @@
 		575D0426197A12AA00CE8823 /* Players@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 575D040E197A12AA00CE8823 /* Players@2x.png */; };
 		57CAAB5F198C6B9000CF7B8B /* PlayersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57CAAB5E198C6B9000CF7B8B /* PlayersViewController.m */; };
 		57CAAB62198C6CAF00CF7B8B /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 57CAAB61198C6CAF00CF7B8B /* Player.m */; };
+		57CAAB65198C7E8C00CF7B8B /* PlayerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 57CAAB64198C7E8C00CF7B8B /* PlayerCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -107,6 +108,8 @@
 		57CAAB5E198C6B9000CF7B8B /* PlayersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayersViewController.m; sourceTree = "<group>"; };
 		57CAAB60198C6CAF00CF7B8B /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
 		57CAAB61198C6CAF00CF7B8B /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		57CAAB63198C7E8C00CF7B8B /* PlayerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerCell.h; sourceTree = "<group>"; };
+		57CAAB64198C7E8C00CF7B8B /* PlayerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +179,8 @@
 				57CAAB5E198C6B9000CF7B8B /* PlayersViewController.m */,
 				57CAAB60198C6CAF00CF7B8B /* Player.h */,
 				57CAAB61198C6CAF00CF7B8B /* Player.m */,
+				57CAAB63198C7E8C00CF7B8B /* PlayerCell.h */,
+				57CAAB64198C7E8C00CF7B8B /* PlayerCell.m */,
 				575D03D91979FCD600CE8823 /* Images.xcassets */,
 				575D03C81979FCD600CE8823 /* Supporting Files */,
 			);
@@ -367,6 +372,7 @@
 				575D03D21979FCD600CE8823 /* AppDelegate.m in Sources */,
 				57CAAB5F198C6B9000CF7B8B /* PlayersViewController.m in Sources */,
 				575D03CE1979FCD600CE8823 /* main.m in Sources */,
+				57CAAB65198C7E8C00CF7B8B /* PlayerCell.m in Sources */,
 				57CAAB62198C6CAF00CF7B8B /* Player.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
