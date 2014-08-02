@@ -6,13 +6,13 @@
 //  Copyright (c) 2014년 양동길. All rights reserved.
 //
 
-#import "PlayersTableViewController.h"
+#import "PlayersViewController.h"
 
-@interface PlayersTableViewController ()
+@interface PlayersViewController ()
 
 @end
 
-@implementation PlayersTableViewController
+@implementation PlayersViewController
 
 - (id)initWithStyle:(UITableViewStyle)style
 {
