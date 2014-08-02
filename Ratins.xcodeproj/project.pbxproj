@@ -45,6 +45,7 @@
 		575D0424197A12AA00CE8823 /* Gestures@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 575D040C197A12AA00CE8823 /* Gestures@2x.png */; };
 		575D0425197A12AA00CE8823 /* Players.png in Resources */ = {isa = PBXBuildFile; fileRef = 575D040D197A12AA00CE8823 /* Players.png */; };
 		575D0426197A12AA00CE8823 /* Players@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 575D040E197A12AA00CE8823 /* Players@2x.png */; };
+		57CAAB5F198C6B9000CF7B8B /* PlayersTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57CAAB5E198C6B9000CF7B8B /* PlayersTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -101,6 +102,8 @@
 		575D040C197A12AA00CE8823 /* Gestures@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Gestures@2x.png"; sourceTree = "<group>"; };
 		575D040D197A12AA00CE8823 /* Players.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Players.png; sourceTree = "<group>"; };
 		575D040E197A12AA00CE8823 /* Players@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Players@2x.png"; sourceTree = "<group>"; };
+		57CAAB5D198C6B9000CF7B8B /* PlayersTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayersTableViewController.h; sourceTree = "<group>"; };
+		57CAAB5E198C6B9000CF7B8B /* PlayersTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayersTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,6 +169,8 @@
 				575D03D31979FCD600CE8823 /* Main.storyboard */,
 				575D03D61979FCD600CE8823 /* ViewController.h */,
 				575D03D71979FCD600CE8823 /* ViewController.m */,
+				57CAAB5D198C6B9000CF7B8B /* PlayersTableViewController.h */,
+				57CAAB5E198C6B9000CF7B8B /* PlayersTableViewController.m */,
 				575D03D91979FCD600CE8823 /* Images.xcassets */,
 				575D03C81979FCD600CE8823 /* Supporting Files */,
 			);
@@ -355,6 +360,7 @@
 			files = (
 				575D03D81979FCD600CE8823 /* ViewController.m in Sources */,
 				575D03D21979FCD600CE8823 /* AppDelegate.m in Sources */,
+				57CAAB5F198C6B9000CF7B8B /* PlayersTableViewController.m in Sources */,
 				575D03CE1979FCD600CE8823 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -560,6 +566,7 @@
 				575D03F21979FCD600CE8823 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		575D03F31979FCD600CE8823 /* Build configuration list for PBXNativeTarget "RatinsTests" */ = {
 			isa = XCConfigurationList;
@@ -568,6 +575,7 @@
 				575D03F51979FCD600CE8823 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
